@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(139, 69, 19, 0.7);
+}
+
+.menuFi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: white;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.enlaces a {
+    flex-wrap: wrap;
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+    position: relative;
+
+}
+
+.enlaces a::before,
+.enlaces a::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #333;
+}
+
+.enlaces a::before {
+    left: -12px;
+}
+
+.enlaces a::after {
+    right: -12px;
+}
+
+.enlaces a:hover {
+    border-bottom: 2px solid black;
+}

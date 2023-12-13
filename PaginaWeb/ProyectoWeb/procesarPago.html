@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="snow-container" id="snow-container"></div>
+</body>
+<style>
+    body {
+  margin: 0;
+  overflow: hidden;
+  background-color: rgb(91, 95, 99);
+}
+
+.snowflake {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: fall linear infinite;
+  z-index: -1;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
+</style>
+<Script src="javascript/snow.js"></Script>
+</html>

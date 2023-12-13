@@ -1,0 +1,83 @@
+.dropdown {
+    display: inline-block;
+    position: relative;
+    /* Añadido para posicionar el menú relativo a .dropdown */
+}
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 5%;
+    transform: translateX(-20%);
+    background-color: black;
+}
+
+.dropdown-content video,
+.dropdown-content2 video {
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    margin-left: 0;
+    padding: 0;
+    display: block;
+
+    width: 148px;
+    height: 110px;
+    /* Asegura que el video se muestra como bloque */
+}
+
+.dropdown-content span,
+.dropdown-content2 span {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content2 {
+    display: block;
+}
+
+.opciones-idioma {
+    display: none;
+    position: absolute;
+    top: 9%;
+    left: 65%;
+    transform: translateX(-50%);
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.opciones-idioma a {
+    color: #333;
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.opciones-idioma a:hover {
+    background-color: white;
+    color: white;
+}

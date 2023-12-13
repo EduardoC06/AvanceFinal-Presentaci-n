@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="EstiloP\estilos.css">
+    <link rel="icon" href="imagenes/log.png" type="image/x-icon">
+    <title>Servicios</title>
+</head>
+
+<body>
+    <section class="recSu">
+        <div class="logo">
+            <a href="#">CAP Brewery</a>
+        </div>
+
+        <nav class="enlaces">
+            <a href="inndex.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="productos.html">Productos</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contactenos.html">Contactenos</a>
+        </nav>
+        </div>
+    </section>
+    <h1 class="tituloP">Nuestros Servicios</h1>
+    <section class="servicio">
+        <div class="servicio-info">
+            <h2>Entrega a Domicilio</h2>
+            <p>Ofrecemos un servicio de entrega a domicilio rápido y confiable. Tu pedido llegará a tu puerta en poco
+                tiempo.</p>
+        </div>
+        <div class="servicio-imagen">
+            <img src="imagenes/entregaD.png" alt="Entrega a Domicilio" width="350vw">
+        </div>
+    </section>
+    <section class="servicio">
+        <div class="servicio-info">
+            <h2>Atención las 24 Horas</h2>
+            <p>Nuestro equipo está disponible las 24 horas, para atendenterte y brindarte asistencia y soporte para
+                cuando lo necesites.</p>
+        </div>
+        <div class="servicio-imagen">
+            <img src="imagenes/reloj.png" alt="Atención las 24 Horas" width="350vw">
+        </div>
+    </section>
+
+    <footer class="Consejo">
+        <h3>Tomar bebidas alcolicas en exceso es dañino <br> Esta prohibido el consumo y venta de alcohol a menores de
+            18 años</h3>
+    </footer>
+
+    <footer class="copyr">
+        <div class="logcop">
+            <img src="imagenes\log.png" alt="Esta imagen representa el logo de la empresa" width="60px" height="60px">
+            <br>
+            <a href="#">CAP Brewery</a>
+            <br>
+            <a href="#">Terminos y condiciones</a>
+            <br>
+            <p>&copy; Derechos de autor 2023 CAP Brewery.</p>
+        </div>
+
+        <div class="enc">
+            <p>Encuentranos en</p>
+            <br>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="imagenes/iconos/facebook.png" width="32px" height="32px">
+            </a>
+            <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
+                <img src="imagenes/iconos/whatsapp.png" width="32px" height="32px">
+            </a>
+            <a href="https://twitter.com/?lang=es" target="_blank">
+                <img src="imagenes/iconos/twitter.png" width="32px" height="32px">
+            </a>
+        </div>
+    </footer>
+</body>
+
+<style>
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* Estilos del encabezado */
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    /* Estilos de la sección de servicios */
+    .servicio {   
+        display: flex;    
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0px;          
+    }
+
+    .servicio h2 {        
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .servicio p {
+        font-size: 16px;    
+    }
+
+    .servicio-imagen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .servicio-imagen img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    /* Estilos del pie de página */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    @media screen and (min-width: 768px) {
+        .servicio {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .servicio-info {
+            flex: 1;
+            padding: 0 20px;
+            text-align: left;
+        }
+
+        .servicio-imagen {
+            flex: 1;
+            padding: 0 20px;
+            text-align: right;
+        }
+    }
+</style>
+
+</html>

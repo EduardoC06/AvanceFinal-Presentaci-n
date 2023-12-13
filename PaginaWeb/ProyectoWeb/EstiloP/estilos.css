@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    /*background-color: rgba(139, 69, 19, 0.719);*/
+    margin: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}    
+
+
+.informacion {
+    /*background-color: #af9c7e;*/
+    /*background-color: #6b4423;*/
+    background-color: #585555;
+    width: 50%;
+    padding: 15px;    
+    display: flex;
+    flex-direction: column;
+    gap: 25px;    
+}
+
+.informacion h1 {
+    font-size: 74px;
+    /*color: #272523;*/
+    /*color: #64625d;*/
+    color: #fae9e2;
+}
+
+.informacion p {
+    color: #ffffff;
+    /*color: #b9b2a8;*/
+}
+
+.imagenSub {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+
+}
+
+.imagenSub img {
+    width: 40vw;
+}
+
+.algTipos {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+/**/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.item {
+    margin-bottom: 50px;
+    text-align: center;
+    width: 30%;
+}
+
+@media screen and (max-width:767px) {
+    .informacion {
+        width: 100%;
+    }
+
+    .men {
+        justify-content: center;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .imagenSub{
+        padding: 20px 0;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
+
+/*Menu*/
+.recSu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #918475;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.enlaces a {
+    flex-wrap: wrap;
+    color: black;
+    text-decoration: none;
+    margin-right: 2vw;
+    position: relative;
+    font-size: 18px;
+}
+/*
+.enlaces a::before,
+.enlaces a::after {
+    content: "";
+    position: absolute;
+    width: 2px;    
+    height: 100%;   
+    background-color: #333; 
+}
+
+.enlaces a::before {
+    left: -12px; 
+}
+
+.enlaces a::after {
+    right: -12px;   
+}
+*/
+.enlaces a:hover {
+    border-bottom: 2px solid black;
+}
+
+/**/
+.copyr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4b463f;/*#413C35*/
+    padding: 20px;
+    gap: 8vw;
+}
+
+.logcop {
+    color: white;
+    text-align: center;
+}
+
+.logcop a,
+.enc p {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Consejo*/
+.Consejo {
+    background-color: #4b463f;
+    height: auto;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;            
+}
+
+.Consejo h3 {
+    font-size: 40px;
+    color: white;
+    text-align: center;            
+}
+/*Fin Consejo*/
+
+/*TituloP*/
+.tituloP {
+    text-align: center;
+    background-color: #413C35;
+    color: white;
+    padding: 20px 0 ;
+}
+/*Fin de tituloP*/
+
+/*INNDEX.PHP*/
+/* Nieve */
+/*.snowflake {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(204, 220, 236);;
+  border-radius: 50%;
+  animation: fall linear infinite;
+  z-index: 2;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(400vh);
+  }
+}
+/* Fin de nieve*/
+

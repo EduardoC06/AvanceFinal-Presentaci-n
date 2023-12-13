@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Elementos al Carrito</title>
+</head>
+
+<body>
+    <div class="productos">
+        <div class="imagenP">
+            <img class="img-producto" src="imagenes/Productos/melkim.png" alt="Cerveza artesanal Melkim">
+        </div>
+        <div class="infoProd">
+            <span class="nombre">Cerveza Melkim</span>
+            <span class="precio">S/. 13.5</span >
+            <div class="contenedor-info">
+                <button id="miEnlace">"!"</button>
+                <button class="btn-item agregar">Añadir</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="productos">
+        <div class="imagenP">
+            <img class="img-producto" src="imagenes/Productos/maddock.png" alt="Cerveza artesanal Maddock">
+        </div>
+        <div class="infoProd">
+            <span class="nombre">Cerveza Maddock</span>
+            <span class="precio">S/. 13.5</span >
+            <div class="contenedor-info">
+                <button id="miEnlace">"!"</button>
+                <button class="btn-item agregar">Añadir</button>
+            </div>
+        </div>
+    </div> 
+
+    <div class="carrito-contenido"></div>
+
+    <script> 
+        var botones = document.getElementsByClassName('agregar');
+
+        for (var i = 0; i < botones.length; i++) {
+            botones[i].addEventListener('click', function(event) {
+
+                var button = event.target;
+                var producto = button.closest('.productos');
+                var imagenSrc = producto.getElementsByClassName('img-producto')[0].src;
+                var titulo = producto.getElementsByClassName('nombre')[0].innerText;
+                var precio = producto.getElementsByClassName('precio')[0].innerText;
+            
+                var itemCarritoContenido = `
+                    <div class="carrito-items">
+                        <div class="carrito-item">
+                            <img src="${imagenSrc}" width="80px" alt="">
+                            <div class="carrito-item-detalles">
+                                <span class="carrito-item-titulo">${titulo}</span>
+                                <div class="selector-cantidad">
+                                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                                    <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                                </div>
+                                <span class="carrito-item-precio">${precio}</span>
+                            </div>
+                            <span class="btn-eliminar">
+                                <i class="fa-solid fa-trash"></i>
+                            </span>
+                        </div>
+                    </div>`;
+
+                var nuevoElemento = document.createElement('div');
+                nuevoElemento.innerHTML = itemCarritoContenido;
+
+                document.querySelector('.carrito-contenido').appendChild(nuevoElemento);
+            });
+        }    
+    </script>
+
+</body>
+
+</html>

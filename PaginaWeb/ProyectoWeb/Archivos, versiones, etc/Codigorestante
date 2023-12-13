@@ -1,0 +1,181 @@
+<div class="productos">
+    <div class="imagenP">
+        <img class="img-producto" src="imagenes/Productos/melkim.png" alt="Cerverza artezanal melkim">
+    </div>
+    <div class="infoProd">
+        <span class="nombre">Cerveza Melkim</span>
+        <span class="precio">S/. 13.5</span>
+        <div class="contenedor-info">
+            <button class="btn-item" id="agregar">Añadir</button>
+            <button class="info-cer" id="miEnlace"><strong>!</strong></button>
+        </div>
+    </div>
+</div>
+
+<div class="productos">
+    <div class="imagenP">
+        <img class="img-producto" src="imagenes/Productos/maddock.png" alt="Cerverza artezanal melkim">
+    </div>
+    <div class="infoProd">
+        <span class="nombre">Cerveza Maddok</span>
+        <span class="precio">S/. 13.5</span>
+        <div class="contenedor-info">
+            <button class="btn-item" id="agregar">Añadir</button>
+            <button class="info-cer" id="miEnlace1"><strong>!</strong></button>
+        </div>
+    </div>
+</div>
+
+<div class="productos">
+    <div class="imagenP">
+        <img class="img-producto" src="imagenes/Productos/barbarian.png" alt="Cerverza artezanal melkim">
+    </div>
+    <div class="infoProd">
+        <span class="nombre">Cerveza Barbarin</span>
+        <span class="precio">S/. 13.8</span>
+        <div class="contenedor-info">
+            <button class="btn-item" id="agregar">Añadir</button>
+            <button class="info-cer" id="miEnlace2"><strong>!</strong></button>
+        </div>
+    </div>
+</div>
+
+<div class="productos">
+    <div class="imagenP">
+        <img class="img-producto" src="imagenes/Productos/Magdalena.png" alt="Cerverza artezanal melkim">
+    </div>
+    <div class="infoProd">
+        <span class="nombre">Cerveza Magdalena</span>
+        <span class="precio">S/. 13.5</span>
+        <div class="contenedor-info">
+            <button class="btn-item" id="agregar">Añadir</button>
+            <button class="info-cer" id="miEnlace3"><strong>!</strong></button>
+        </div>
+    </div>
+</div>
+<div class="productos">
+    <div class="imagenP">
+        <img class="img-producto" src="imagenes/Productos/nuevo-mundo.png" alt="Cerverza artezanal melkim">
+    </div>
+    <div class="infoProd">
+        <span class="nombre">Cerveza Nuevo mundo</span>
+        <span class="precio">S/. 13.5</span>
+        <div class="contenedor-info">
+            <button class="btn-item" id="agregar">Añadir</button>
+            <button class="info-cer" id="miEnlace4"><strong>!</strong></button>
+        </div>
+    </div>
+</div>
+<div class="productos">
+    <div class="imagenP">
+        <img class="img-producto" src="imagenes/Productos/cumbres.png" alt="Cerverza artezanal melkim">
+    </div>
+    <div class="infoProd">
+        <span class="nombre">Cerveza Cumbres</span>
+        <span class="precio">S/. 13.5</span>
+        <div class="contenedor-info">
+            <button class="btn-item" id="agregar">Añadir</button>
+            <button class="info-cer" id="miEnlace5"><strong>!</strong></button>
+        </div>
+    </div>
+</div>
+<div class="productos">
+    <div class="imagenP">
+        <img class="img-producto" src="imagenes/Productos/redflags.png" alt="Cerverza artezanal melkim">
+    </div>
+    <div class="infoProd">
+        <span class="nombre">Cerveza Bad Bitch</span>
+        <span class="precio">S/. 14.5</span>
+        <div class="contenedor-info">
+            <button class="btn-item" id="agregar">Añadir</button>
+            <button class="info-cer" id="miEnlace6"><strong>!</strong></button>
+        </div>
+    </div>
+</div>
+<div class="productos">
+    <div class="imagenP">
+        <img class="img-producto" src="imagenes/Productos/7-vidas.png" alt="Cerverza artezanal melkim">
+    </div>
+    <div class="infoProd">
+        <span class="nombre">Cerveza 7 vidas</span>
+        <span class="precio">S/. 24.90</span>
+        <div class="contenedor-info">
+            <button class="btn-item" id="agregar">Añadir</button>
+            <button class="info-cer" id="miEnlace7"><strong>!</strong></button>
+        </div>
+    </div>
+</div>
+<div class="productos">
+    <div class="imagenP">
+        <img class="img-producto" src="imagenes/Productos/fortunata.png" alt="Cerverza artezanal melkim">
+    </div>
+    <div class="infoProd">
+        <span class="nombre">Cerveza Fortunata</span>
+        <span class="precio">S/. 14.5</span>
+        <div class="contenedor-info">
+            <button class="btn-item" id="agregar">Añadir</button>
+            <button class="info-cer" id="miEnlace8"><strong>!</strong></button>
+        </div>
+    </div>
+</div>
+<div class="productos">
+    <div class="imagenP">
+        <img class="img-producto" src="imagenes/Productos/nowhere.png" alt="Cerverza artezanal melkim">
+    </div>
+    <div class="infoProd">
+        <span class="nombre">Cerveza Nowhere</span>
+        <span class="precio">S/. 15.9</span>
+        <div class="contenedor-info">
+            <button class="btn-item" id="agregar">Añadir</button>
+            <button class="info-cer" id="miEnlace9"><strong>!</strong></button>
+        </div>
+    </div>
+</div>
+<div class="productos">
+    <div class="imagenP">
+        <img class="img-producto" src="imagenes/Productos/invictus.png" alt="Cerverza artezanal melkim">
+    </div>
+    <div class="infoProd">
+        <span class="nombre">Cerveza Invictus</span>
+        <span class="precio">S/. 14.5</span>
+        <div class="contenedor-info">
+            <button class="btn-item" id="agregar">Añadir</button>
+            <button class="info-cer" id="miEnlace10"><strong>!</strong></button>
+        </div>
+    </div>
+</div>
+<div class="productos">
+    <div class="imagenP">
+        <img class="img-producto" src="imagenes/Productos/candelari.png" alt="Cerverza artezanal melkim">
+    </div>
+    <div class="infoProd">
+        <span class="nombre">Cerveza Candelaria</span>
+        <span class="precio">S/. 9.9</span>
+        <div class="contenedor-info">
+            <button class="btn-item" id="agregar">Añadir</button>
+            <button class="info-cer" id="miEnlace11"><strong>!</strong></button>
+        </div>
+    </div>
+</div>
+<div class="productos">
+<div class="imagenP">
+    <img class="img-producto" src="<?=$datos->imagen_url?>" alt="Cerverza artezanal melkim">
+</div>
+<div class="infoProd">
+    <span class="nombre"><?=$datos->nombre?></span>
+    <span class="precio"><?=$datos->precio?></span>
+    <div class="contenedor-info">
+        <button class="btn-item" id="agregar">Añadir</button>
+        <button class="info-cer" id="miEnlace1"><strong>!</strong></button>
+    </div>
+</div>
+</div>
+
+
+
+<?php 
+                { ?>
+                <div></div>
+                <?php
+                }
+                ?>
